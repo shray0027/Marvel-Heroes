@@ -4,19 +4,27 @@
     padding: 0;
 }
 body{
-    background-color: #1D1C1C;
+    background-color:#2a2e31;
 }
 header{
-    background-color: black;
+    background-color: #212121;
     text-align: center;
-    padding: 20px;
+    border-bottom : 3px solid#2a2e31;
+    position : fixed;
+    width: 100%;
 }
 header h1{
-    background-color: red;
+    background-color:#ec1d25;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
-    padding:5px ;
+    
     font-size: 2.5rem;
     display: inline-block;
+    
+}
+.hero {
+    width : 100%;
+    height: 2000px;
+    background-color:white;
 }
