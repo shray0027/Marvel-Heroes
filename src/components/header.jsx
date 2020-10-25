@@ -14,11 +14,12 @@ function Header (){
         }
        
     }
-
     return (
-        <header>
+        <div className="header">
+             <header>
             <h1>{headerH1}</h1>
-        </header>
+        </header></div>
+       
     );
  } 
 export default Header;

@@ -2,24 +2,26 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Roboto' , sans-serif;
 }
+
 body{
-    background-color:#2a2e31;
+    background-color:#212121;
 }
-header{
-    background-color: #212121;
+.header{
+    background-color:#212121;
     text-align: center;
     border-bottom : 3px solid#2a2e31;
-    position : fixed;
+    display: block;
     width: 100%;
+
 }
-header h1{
+.header h1{
     background-color:#ec1d25;
     color: white;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Staatliches', sans-serif;
     font-weight: 700;
-    
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     display: inline-block;
     
 }
@@ -27,4 +29,91 @@ header h1{
     width : 100%;
     height: 2000px;
     background-color:white;
+    display: block;
+}
+.nav-bar{
+    background-color: #212121;
+    border-bottom : 3px solid#2a2e31;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: block;
+}
+.nav-bar nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px ;
+}
+.nav-bar nav ul li {
+    margin-right:  20px;
+    font-weight: 400;
+    letter-spacing:2px;
+    font-size: 0.7em;
+    
+}
+.nav-bar nav li a{
+    text-decoration: none;
+    color : white;
+    transition: 0.2s;
+    padding-bottom:6px ;
+}
+.nav-bar nav li a:hover{
+    border-bottom: 2px solid red;
+}
+
+.top-container{
+   background: url("https://i.annihil.us/u/prod/marvel/i/mg/8/e0/52bdf830aa094.jpg") no-repeat center center;
+  
+   height: 436px;
+}
+.section-container{
+   width: 940px;
+   margin: auto;
+}
+.main-body{
+    color : white;
+    display: flex;
+    width: 52%;
+}
+.skew-box{
+    height: 436px;
+    width: 38%;
+    z-index: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.6;
+    transform: skew(-11deg);
+    margin-left: -65px;
+    backdrop-filter: blur(5px);
+    border: none;
+}
+.intro{
+    padding-right: 10px;
+    z-index: 1;
+}
+.headline{
+    padding-top:60px ;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed" , sans-serif;
+    line-height:1;
+   
+}
+.line1 {
+    font-size: 2rem;
+    }
+.line2{
+    font-size: 2.2em;
+}
+.line3{
+    font-size: 2em;
+}
+.intro-body{
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 1.1em;
+    font-family: 'Roboto' , sans-serif;
+    line-height: 25px;
+    font-weight: 300;
 }
